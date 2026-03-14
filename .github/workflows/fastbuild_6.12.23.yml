@@ -713,7 +713,7 @@ jobs:
         id: create_zip
         run: |
           cd kernel_workspace
-          git clone https://github.com/cctv18/AnyKernel3 --depth=1
+          git clone https://github.com/2879597772/AnyKernel3 --depth=1
           rm -rf ./AnyKernel3/.git
           cd AnyKernel3
           cp ../common/out/arch/arm64/boot/Image ./Image
